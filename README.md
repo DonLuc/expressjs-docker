@@ -17,6 +17,15 @@
 #### ***GET*** /api/football/teams 
 > Returns a list of the teams within the free-tier league
 
+#### ***GET*** /api/football/teams/:teamid
+> Returns a team by ID
+
+#### ***GET*** /api/football/players/:playerName
+> Returns a player by player name. **NB: ** Only limited players can be queried due to my price-plan
+
+#### ***GET*** /api/football/get_leagues_by_country/:country
+> Returns leagues available in the provided country id
+
 
 
 Author: [Lucas Nkoana](https://www.linkedin.com/in/lucas-nkoana-0653b674/)
