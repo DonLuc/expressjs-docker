@@ -1,0 +1,19 @@
+{
+  "name": "apifootball",
+  "version": "1.0.0",
+  "description": "Various API services from API Football",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "Lucas Nkoana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
